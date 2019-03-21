@@ -12,6 +12,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import com.facebook.react.uimanager.PointerEvents;
 import com.facebook.react.uimanager.ReactPointerEventsView;
+import java.lang.reflect.Field;
+
 
 public class Screen extends ViewGroup implements ReactPointerEventsView {
 
